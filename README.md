@@ -35,15 +35,14 @@ learners!
 2. Make a local clone of your new repository:
 
 ```sh
-git clone https://github.com/<owner>/<your-app-name>
+git clone --recurse-submodules https://github.com/<owner>/<your-app-name>
 cd <your-app-name>
 ```
 
-3. Add the framework submodule required to make your app function:
-
-```sh
-git submodule add https://github.com/um-agentic-ed/um-agentic-ed-framework.git src/um-agentic-ed-framework
-```
+3. Check your installation by double-clicking `index.html` in your app folder - 
+the template **UM Agentic Ed Parent** app should open.  If not, you likely forgot 
+`--recurse-submodules` and must run `git submodule update --init --recursive` to 
+clone the required framework submodule.
 
 4. Edit files `README.md` (this file) and `AGENTS.md` (in the places marked 
 `TODO` only!) to describe the context and content of your new app.
@@ -54,8 +53,8 @@ or your favorite AI-powered development environment, execute
 `/build-app set-app-identity`, OR manually edit file `app.js` to describe
 your new app.
 
-6. Double-click `index.html` to open your new app in Chrome (Safari does not 
-support in-app editing). You can rename `index.html` to `<your-app-name>.html`
+6. Double-click `index.html` again to open your new app in Chrome (Safari does  
+not support in-app editing). You can rename `index.html` to `<your-app-name>.html`
 or another name if you'd like.
 
 7. Ctrl-click on the title you gave your app in the upper left corner to toggle
