@@ -42,7 +42,7 @@ cd <your-app-name>
 3. Add the framework submodule required to make your app function:
 
 ```sh
-git add submodule https://github.com/um-agentic-ed/um-agentic-ed-framework.git src/um-agentic-ed-framework
+git submodule add https://github.com/um-agentic-ed/um-agentic-ed-framework.git src/um-agentic-ed-framework
 ```
 
 4. Edit files `README.md` (this file) and `AGENTS.md` (in the places marked 
