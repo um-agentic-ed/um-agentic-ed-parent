@@ -30,7 +30,7 @@ learners!
 ## Creating a new app from this template
 
 1. Create your own app parent repository by
-[copying this template](https://github.com/um-agentic-ed/um-agentic-ed-parent).
+[copying this template](https://github.com/um-agentic-ed/um-agentic-ed-parent/generate).
 
 2. Make a local clone of your new repository:
 

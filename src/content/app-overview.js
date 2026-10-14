@@ -6,8 +6,8 @@ window.umedAppContent["app-overview"] = {
     "blocks": [
       {
         "type": "text",
-        "markdown": "This is a simple text block for the app overview."
-      },
+        "markdown": "This is a simple text block for the app overview.\n\nReplace the content of this template with your app content.\n\nSee the [um-agentic-ed docs](https://github.com/um-agentic-ed/um-agentic-ed-docs) for details."
+      }
     ]
   }
 };
