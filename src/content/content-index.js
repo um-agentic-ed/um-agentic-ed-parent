@@ -26,8 +26,15 @@ window.umedAppContentIndex = {
                   "title": "My Slide",
                   "level": "foundations",
                   "order": 10,
-                  "keywords": [],
-                  "keywordsUpdatedAt": "2026-10-08T20:08:18.065Z"
+                  "keywords": [
+                    "block",
+                    "first",
+                    "initial",
+                    "section",
+                    "slide",
+                    "text"
+                  ],
+                  "keywordsUpdatedAt": "2026-10-29T16:05:58.300Z"
                 }
               ]
             }

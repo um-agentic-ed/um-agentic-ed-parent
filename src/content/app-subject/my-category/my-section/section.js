@@ -6,7 +6,7 @@ window.umedAppContent["app-subject/my-category/my-section"] = {
     "blocks": [
       {
         "type": "text",
-        "markdown": "This is a simple text block for the section."
+        "markdown": "This is an initial text block for the section landing slide."
       }
     ]
   }
