@@ -52,9 +52,8 @@ for repeating tasks.
 
 # Educational content generation guidelines
 
-The content of the App in `TODO: your-app-repo-name` is designed to be used:
+`TODO: your-app-repo-name` is designed to be used:
 - TODO: describe your target usage context and users here.
 
-In addition to the content guidelines provided in 
-`src/um-agentic-ed-framework/AGENTS.md`, when you generate content:
-- TODO: provide additional instruction for Agents to follow when generating content.
+When generating content for a Category or Section, you should:
+- TODO: provide strict rules, a style guide, and other instructions for content
